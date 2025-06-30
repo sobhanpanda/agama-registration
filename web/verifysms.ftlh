@@ -1,7 +1,7 @@
 [#ftl output_format="HTML"]
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Verify SMS OTP
+<head><meta charset="UTF-8"><title>Verify Email OTP
  </title></head>
 <body>
 
@@ -10,14 +10,14 @@
  
   
   
- <h2>Step 2: Verify SMS OTP
+ <h2>Step 4: Verify Email OTP
  </h2>
  [#if errorMessage??]
- <p id="iedz">${errorMessage}
+ <p id="ioqn">${errorMessage}
  </p>
  [/#if]
  <form method="post">
-   <label>Enter the OTP sent to your phone:</label>
+   <label>Enter the OTP sent to your email:</label>
    <br>
    <input type="text" name="otp" required="">
    <br>
