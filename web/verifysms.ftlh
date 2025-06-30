@@ -18,13 +18,10 @@
  [/#if]
  <form method="post">
    <label>Enter the OTP sent to your phone:</label>
-   
-
+   <br>
    <input type="text" name="otp" required="">
-   
-
-   
-
+   <br>
+   <br>
    <button type="submit">Verify</button>
  </form>
   
