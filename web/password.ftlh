@@ -1,29 +1,15 @@
+[#ftl output_format="HTML"]
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Set Password
-    </title>
-  </head>
-  <body>
-    <h2>Step 3: Set Your Password
+<head><meta charset="UTF-8"><title>Set Password
+    </title></head>
+<body><h2>Step 3: Set Your Password
     </h2>
     [#if errorMessage??]
     <p id="ifwr">${errorMessage}
     </p>
     [/#if]
-    <form method="post">
-      <label>Password:</label>
-      <br>
-      <input type="password" name="userPassword" required="">
-      <br>
-      <br>
-      <label>Confirm Password:</label>
-      <br>
-      <input type="password" name="confirmPassword" required="">
-      <br>
-      <br>
-      <button type="submit">Proceed</button>
-    </form>
-  </body>
+    <form method="post"><label>Password:</label><br><input type="password" name="userPassword" required=""><br><br><label>Confirm Password:</label><br><input type="password" name="confirmPassword" required=""><br><br><button type="submit">Proceed</button></form></body>
+
+
 </html>
